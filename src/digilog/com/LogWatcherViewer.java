@@ -40,7 +40,7 @@ public class LogWatcherViewer {
         this.startBtn = new JButton("Start");
         this.stopBtn = new JButton("Stop");
         this.saveBtn = new JButton("Save");
-        String[] dataBaseGroup = new String[]{"UTF-8", "EUC-KR", "MS949"};
+        String[] dataBaseGroup = new String[]{"UTF-8", "EUC-KR", "MS949", "EUC_JP","MS932","ISO2022JP2"};
         this.dataBaseBox = new JComboBox(dataBaseGroup);
         this.browseBtn.addActionListener(new digilog.com.LogWatcherViewer.SelectLogFileListener());
         this.jtfFile = new JTextField(25);
